@@ -51,7 +51,6 @@ function maxOf(array) {
 }
 
 function includesNumber(array, num) {
-  // 5 === array[0]?
   if (array.length > 1) {
     if (array[0] === num) {
       return true;
